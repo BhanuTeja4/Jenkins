@@ -1,0 +1,19 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /home/coder/project/workspace/jenkins/workspace/WelcomeJenkins
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/coder/project/workspace/jenkins/workspace/WelcomeJenkins/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/BhanuTeja4/Jenkins # timeout=10
+Fetching upstream changes from https://github.com/BhanuTeja4/Jenkins
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/BhanuTeja4/Jenkins +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 78384760fbe4b021744905fdfeda9c5e87f52550 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 78384760fbe4b021744905fdfeda9c5e87f52550 # timeout=10
+Commit message: "Auto-save-commit-7/11/2025--10:37:40-AM"
+ > git rev-list --no-walk 78384760fbe4b021744905fdfeda9c5e87f52550 # timeout=10
+Finished: SUCCESS
